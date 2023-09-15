@@ -1,0 +1,37 @@
+* {
+    font-family: serif;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    height: 100vh; /*Significa que el contenedor va a ocupar el 100% de manera vertical, es decir de la altura de la ventana*/
+    justify-content: center;/*Para centrarlos horizontalmente*/
+    align-items: center;
+    flex-direction: column; /*Lo utilizo para que los elementos se apilen uno abajo del otro*/
+
+}
+
+.form__section{
+    margin: 10px;
+
+}
+
+.form__input{
+    width: 300px;
+    height: 45px;
+}
+
+.form__submit{
+    width: 310px; /*Define el ancho unicamente del boton para enviar*/
+    height: 30px;
+
+}
+
+.form__section label{
+    display: block; /*Para que los labels se ubiquen por encima de los inputs*/
+
+}
+
+
