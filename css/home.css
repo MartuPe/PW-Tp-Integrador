@@ -1,0 +1,129 @@
+
+#menu-nav li:first-child a {
+    background-color: transparent;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #CCEE52;
+}
+
+#menu-nav li a:hover{
+    color: #CCEE52;
+}
+
+#menu-nav li:nth-child(2) a:hover{
+    background-image: url("/images/icons/search-hover.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#menu-nav li:nth-child(3) a:hover{
+    background-image: url("/images/icons/albums-hover.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#menu-nav li:nth-child(4) a:hover{
+    background-image: url("/images/icons/favorites-hover.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+
+h3{
+    color: #7463F2;
+    text-transform: uppercase;
+}
+
+
+
+
+/* CARDS */
+
+#caja-padre-ul-albums {
+    overflow-x: auto;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    flex-grow: 1;
+}
+
+#caja-padre-albums {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    padding-bottom: 5em;
+}
+
+#caja-padre-albums li {
+    box-sizing: border-box;
+    background-color: #0a0a0a;
+    max-width: 12%;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-shadow: 5px 5px 10px 2px #0e0e0e;
+}
+
+#caja-padre-albums li a img {
+    max-width: 90%;
+    margin: 10px;
+}
+
+#caja-padre-albums li a {
+    background-color: #0a0a0a;
+    display: inline-block;
+}
+
+#caja-padre-albums div {
+    background-color: transparent;
+}
+
+#descripcion-cards {
+    display: grid;
+    grid-template-columns: 3.1fr 0.8fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.estrella-fav {
+    background-image: url("/images/icons/star-not-selected.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.estrella-fav:active {
+    background-image: url("/images/icons/star-selected.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#caja-padre-albums li h3 {
+    background-color: #0a0a0a;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#caja-padre-albums li p {
+    background-color: #0a0a0a;
+    font-size: 0.7rem;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+
+
