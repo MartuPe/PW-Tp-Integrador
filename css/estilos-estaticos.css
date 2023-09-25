@@ -69,25 +69,25 @@ nav {
 }
 
 #menu-nav li:nth-child(1) {
-    background-image: url("/images/icons/home.png");
+    background-image: url("../images/icons/home.png");
     background-repeat: no-repeat;
     background-position: center left;
 }
 
 #menu-nav li:nth-child(2){
-    background-image: url("/images/icons/search.png");
+    background-image: url("../images/icons/search.png");
     background-repeat: no-repeat;
     background-position: center left;
 }
 
 #menu-nav li:nth-child(3){
-    background-image: url("/images/icons/albums.png");
+    background-image: url("../images/icons/albums.png");
     background-repeat: no-repeat;
     background-position: center left;
 }
 
 #menu-nav li:last-child{
-    background-image: url("/images/icons/favorites.png");
+    background-image: url("../images/icons/favorites.png");
     background-repeat: no-repeat;
     background-position: center left;
 }
@@ -183,23 +183,23 @@ nav {
 }
 
 #play {
-    background-image: url('/images/icons/play.png');
+    background-image: url('../images/icons/play.png');
 }
 
 #random {
-    background-image: url('/images/icons/random.png');
+    background-image: url('../images/icons/random.png');
 }
 
 #reverse {
-    background-image: url('/images/icons/reverse.png');
+    background-image: url('../images/icons/reverse.png');
 }
 
 #forward {
-    background-image: url('/images/icons/forward.png');
+    background-image: url('../images/icons/forward.png');
 }
 
 #repeat {
-    background-image: url('/images/icons/repeat.png');
+    background-image: url('../images/icons/repeat.png');
 }
 
 
@@ -233,7 +233,7 @@ nav {
 }
 
 #boton-volumen {
-    background-image: url('/images/icons/volume.png');
+    background-image: url('../images/icons/volume.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,15 +250,15 @@ nav {
 }
 
 #playlist {
-    background-image: url('/images/icons/playlist.png');
+    background-image: url('../images/icons/playlist.png');
 }
 
 #devices {
-    background-image: url('/images/icons/devices.png');
+    background-image: url('../images/icons/devices.png');
 }
 
 #expand {
-    background-image: url('/images/icons/expand.png');
+    background-image: url('../images/icons/expand.png');
 }
 
 
@@ -301,7 +301,7 @@ main {
 }
 
 h1 {
-    background-image: url('/images/icons/logo.png');
+    background-image: url('../images/icons/logo.png');
     background-repeat: no-repeat;
     float: left;
     background-color: transparent;

@@ -1,0 +1,294 @@
+* {
+    font-family: "effra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ababab;
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: #ababab;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 5px #141414;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent !important;
+    background: linear-gradient(to bottom, #0A0A0A, transparent) !important;
+    padding-top: 1em;
+}
+
+main {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    background-image: url('../images/icons/logo.png');
+    background-repeat: no-repeat;
+    float: left;
+    background-color: transparent;
+    color: transparent;
+    width: 7em;
+    height: 2em;
+    margin-left: 3em;
+}
+
+#usuario-caja {
+    float: right;
+    margin-right: 7em;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+#usuario-caja img {
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#usuario-caja a,
+#usuario-caja p {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+#usuario-caja a {
+    height: 30px;
+}
+
+#usuario-caja a:last-child{
+    color: white;
+    padding-top: 25px;
+    font-size: 0.5rem;
+    text-decoration: none;
+}
+
+#usuario-caja p {
+    text-transform: lowercase;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 0.8rem;
+    color: #0A0A0A;
+    background-color: #7463F2;
+    border-radius: 10px;
+    padding: 5px 15px 5px 30px;
+    margin-left: -25px;
+}
+
+/*PASTILLAS*/
+.membresias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.membresias img{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 2em;
+    background-color: transparent;
+}
+
+.pastillas{
+    width: 20%;
+    height: 500px;
+    text-align: center;
+    background-color: #0A0A0A;
+    border-radius: 3em;
+    box-shadow: 15px 10px 20px 1px #0e0e0e;
+    margin-top: 1em;
+}
+
+.pastillas:first-child h3{
+    color: #CCEE52;
+}
+
+.pastillas:nth-child(2) h3{
+    color: #ED70C3;
+}
+
+.pastillas:last-child h3{
+    color: #7463F2;
+}
+
+.pastillas:first-child li:first-child{
+    background-image: url("../images/icons/user-verde.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.pastillas:first-child li:nth-child(2){
+    background-image: url("../images/icons/adblock-verde.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.pastillas:first-child li:nth-child(3){
+    background-image: url("../images/icons/download-verde.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+.pastillas:nth-child(2) li:first-child{
+    background-image: url("../images/icons/user-rosa.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+.pastillas:nth-child(2) li:nth-child(2){
+    background-image: url("../images/icons/adblock-rosa.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+.pastillas:nth-child(2) li:nth-child(3){
+    background-image: url("../images/icons/download-rosa.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+.pastillas:last-child li:first-child{
+    background-image: url("../images/icons/user-violeta.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.pastillas:last-child li:nth-child(2){
+    background-image: url("../images/icons/adblock-violeta.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.pastillas:last-child li:nth-child(3){
+    background-image: url("../images/icons/download-violeta.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.membresias div li{
+    list-style: none;
+    display: inline-block;
+    padding: 17px;
+    margin-top: 2em;
+    background-color: transparent;
+}
+
+.membresias div ul{
+    background-color: transparent;
+}
+
+.membresias div li span{
+    background-color: transparent;
+    font-size: 3rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.pastillas:first-child li span{
+    color: #CCEE52;
+}
+
+.pastillas:nth-child(2) li span{
+    color: #ED70C3;
+}
+
+.pastillas:last-child li span{
+    color: #7463F2;
+}
+
+.membresias div li:last-child{
+    display: block;
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.membresias div label{
+    display: block;
+    background-color: transparent;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+.selector{
+    margin-top: 0.5em;
+    background-color: transparent;
+}
+
+.selector input{
+    margin-top: 2em;
+}
+
+h3{
+    font-family: 'Fredoka', sans-serif;
+    background-color: transparent;
+    margin-top: 0.5em;
+    font-size: 1.5rem;
+}
+
+input{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*BOTONES*/
+
+#botones{
+    text-align: center;
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #ababab;
+    border: none;
+    color: #0A0A0A;
+    width: 7em;
+    height: 2em;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 1px #0e0e0e;
+    font-size: 1rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+button:first-child{
+    margin-right: 5em;
+}
+
+button:last-child{
+    margin-left: 5em;
+}
+
+button a{
+    text-decoration: none;
+    color: #0A0A0A;
+    background-color: transparent;
+    width: 7em;
+    height: 2em;
+    cursor: default;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+
+
+  

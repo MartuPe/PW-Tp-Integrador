@@ -92,7 +92,7 @@ h3{
 }
 
 .estrella-fav {
-    background-image: url("/images/icons/star-not-selected.png");
+    background-image: url("../images/icons/star-not-selected.png");
     background-color: transparent;
     background-repeat: no-repeat;
     width: 20px;
@@ -102,7 +102,7 @@ h3{
 }
 
 .estrella-fav:active {
-    background-image: url("/images/icons/star-selected.png");
+    background-image: url("../images/icons/star-selected.png");
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
