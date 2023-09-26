@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "effra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../images/background-registro.png");
+}
+
+
+main {
+    display: grid;
+    grid-template-columns:  2.1fr 1.8fr;
+    grid-auto-rows: 100vh;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+main div:first-child {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+main div:last-child {
+    justify-self: start;
+    grid-area: 1 / 2 / 2 / 3;
+    width: 60%;
+    height: 66%;
+}
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: #7463F2;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 5px #141414;
+  
+}
+
+label{
+    font-family: 'Fredoka', sans-serif;
+    text-transform: uppercase;
+    color: #7463F2;
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.formulario__section input{
+    width: 60%;
+    height: 2em;
+    background-color: #0A0A0A;
+    color: #ababab;
+    border: none;
+    margin-bottom: 2em;
+}
+
+.formulario div:last-child{
+    text-align: center;
+}
+
+.formulario div:last-child input{
+    width: 7em;
+    height: 2em;
+    background-color: #7463F2;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 2px 2px 1px 1px #141414;
+    cursor: pointer;
+}
+
+#opciones{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+#opciones a{
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+#opciones a:first-child{
+    background-color: #ababab;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 2px 2px 1px 1px #141414;
+    color: #0A0A0A;
+    padding: 0.3em;
+    font-size: 0.9rem;
+}
+
+#opciones a:last-child{
+    background-color: #ED70C3;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 2px 2px 1px 1px #141414;
+    color: #0A0A0A;
+    padding:0.3em;
+    font-size: 0.9rem;
+}
+
+
