@@ -1,0 +1,143 @@
+
+
+.seccionMain{
+	height: 100%;
+	margin: 1rem 4rem ;
+}
+
+span, span img{
+	background-color: #21101d;
+}
+
+.active{
+	color: #CCEE52;
+}
+
+
+
+.musicConteiner{
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 4rem;
+}
+
+.cardMusic{
+	display: flex;
+	align-items: center;
+	background-color: #21101d;
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.cancionAlbum, .cancionFecha, .cancionDuracion, .cancionEstrella{
+	width: 20%;
+    text-align: center;
+}
+
+.cancionNombre{
+	font-size: 1.2rem;
+	color:  #cced52;
+}
+
+.cancionAlbum{
+	color: #705fe7;
+	font-size: 1rem;
+}
+
+.cancionEstrella{
+	display: flex;
+	justify-content: center;
+}
+
+.imgConteiner{
+	margin: -10px;
+	width: 10%;
+	display: flex;
+}
+
+.imgConteiner img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.datosConteiner{
+	margin-left: 30px ;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.albumConteiner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+
+}
+
+.cardAlbum{
+	display: flex;
+	width: 22%;
+	background-color: #21101d;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.bodyCardAlbum{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #21101d;
+}
+
+.datosAlbumConteiner{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #21101d;
+
+}
+
+.albumNombre{
+	color: #cced52;
+	font-size: 1.5rem;
+}
+
+.albumImgConteiner{
+	width: 100%;
+	display: flex;
+	align-self: center;
+	background-color:#21101d ;
+	padding: 5px;
+}
+
+.albumImgConteiner img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.albumEstrella{
+	display: flex;
+}
+
+.albumEstrella img{
+	background-color: #21101d;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,6 +6,7 @@
     background-color: #1E1E1E;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -265,11 +266,13 @@ nav {
 
 /* CANCION SONANDO */
 #cancion-sonando {
+    display: flex;
+    flex-direction: column;
     background-color: #1E1E1E;
     padding: 2em;
     border-radius: 10px 10px 0 0;
     box-shadow: 1px 1px 10px 5px #0A0A0A;
-    width: 11%;
+    width: 14%;
     position: fixed;
     bottom: 0;
 }
