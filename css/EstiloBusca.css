@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+body {
+    background-color: #222138;
+}
+
+.barra-lateral {
+    width: 15%;
+    /*ancho de la barra lateral*/
+    background-color: rgb(20, 20, 65);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+
+.barra-buscar {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+
+.buscador i {
+    margin-right: 5px;
+    color: #CCEE52;
+}
+
+.buscador__input {
+    width: 1200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.barra-lateral__ul {
+    list-style: none;
+    /*saca los puntos de las listas*/
+    padding: 0;
+    /*elimina el espacio de relleno en la lista*/
+    margin: 0;
+    /*elimina el margn predeterminado*/
+
+}
+
+.buscador h4 {
+    color: #CCEE52;
+    margin-bottom: 10px;
+}
+
+.barra-lateral__li {
+    display: flex;
+    align-items: center;
+    /*centra vericalmente los elementos*/
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.barra-lateral__li i {
+    margin-right: 10px;
+    color: rgba(240, 248, 255, 0.514);
+}
+
+.barra-lateral__li a {
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.514);
+}
+
+a:hover {
+    color: #CCEE52;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #838297;
+    border-radius: 20px;
+    width: 130px;
+
+
+}
+
+.usuario h3 {
+    margin: auto;
+    font-size: small;
+}
+
+.usuario__a {
+    margin: auto;
+    text-decoration: none;
+    font-size: small;
+}
+
+.usuario img {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.usuario__objetos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.generosYepocas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.generos {
+    padding: 10px;
+
+    flex-grow: 1;
+    align-self: center;
+
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.titulos h2 {
+    color: #CCEE52;
+}
+
+.titulos h6 {
+    color: rgb(122, 117, 117);
+}
+
+
+.imagenes img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.6s;
+    margin: 5px;
+}
+
+.imagenes img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
+
+.reproduccion {
+    position: absolute;
+    /* Posición absoluta para el footer de reproducción */
+    left: 0;
+    bottom: 0;
+    background-color: #2d2b4a;
+    padding: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    /* Ocupar todo el ancho del contenedor padre */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.reproduccion__audio__audio {
+    width: 800px;
+}
+
+.reproduccion__audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin: auto;
+}
+
+.reproduccion__iconos {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    z-index: 150;
+    margin-bottom: 20px;
+}
+
+.reproduccion__iconos i {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #838297;
+    font-size: 18px;
+}
+
+
+.Imagen-reproduccion {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #2a2843;
+    padding: 60px;
+    /* Espacio interno entre el borde y el contenido */
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    /* Asegura que el padding no aumente el tamaño total */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+    align-items: flex-start;
+    /* Alinea el contenido a la izquierda */
+}
+
+.Imagen-reproduccion img {
+    width: 200px;
+    border-radius: 10px;
+    opacity: 0.6;
+
+}
+
+.Imagen-reproduccion h2 {
+    color: #CCEE52;
+    margin-top: 10PX;
+}
+
+.Imagen-reproduccion h5 {
+    margin-top: 10px;
+    color: #838297;
+}
+
+.Imagen-reproduccion h6 {
+    color: #838297;
+}
+
+.Imagen-reproduccion i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.Imagen-reproduccion i.fa-star {
+    font-size: 24px;
+    /* Ajusta el tamaño de la estrella*/
+    color: #6561a0;
+}
+
+@media (min-width: 1380px) and (max-width: 1500px) {
+    .buscador__input {
+        width: 1000px;
+    }
+    .imagenes img {
+        width: 155px;
+    }
+
+    }
+
+    @media (min-width: 1145px) and (max-width: 1380px) {
+        .buscador__input {
+            width: 700px;
+        }
+        .imagenes img {
+            width: 120px;
+        }
+
+        .Imagen-reproduccion {
+            padding: 30px;
+            /* Espacio interno entre el borde y el contenido */
+            padding-bottom: 30px;
+          
+        }
+        
+        .Imagen-reproduccion img {
+            width: 160px;
+        
+        }
+        
+        .Imagen-reproduccion h2 {
+            font-size: 20px;
+           
+        }
+        
+        .Imagen-reproduccion h5 {
+            font-size: 15px;
+         
+        }
+
+        .reproduccion {
+            padding: 30px;
+            padding-bottom: 30px;
+        }
+        
+        .reproduccion__audio__audio {
+            width: 600px;
+        }
+
+        
+        .reproduccion__iconos i {
+          
+            margin-left: 10px;
+            margin-right: 10px;
+        
+            font-size: 15px;
+        }
+        
+    
+        }
+
+        @media (min-width: 900px) and (max-width: 1145px) {
+            .buscador__input {
+                width: 500px;
+            }
+            .imagenes img {
+                width: 100px;
+            }
+
+             
+        .reproduccion__audio__audio {
+            width: 500px;
+        }
+
+        .Imagen-reproduccion {
+            padding: 30px;
+            /* Espacio interno entre el borde y el contenido */
+            padding-bottom: 30px;
+          
+        }
+        
+        .Imagen-reproduccion img {
+            width: 160px;
+        
+        }
+        
+        .Imagen-reproduccion h2 {
+            font-size: 20px;
+           
+        }
+        
+        .Imagen-reproduccion h5 {
+            font-size: 15px;
+         
+        }
+        
+            }
