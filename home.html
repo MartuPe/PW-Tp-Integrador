@@ -19,31 +19,28 @@
 </head>
 
 <body>
-
+    <input type="hidden" id="pagina-actual" value="home">
     <header>
         <h1>TuneWaves</h1>
         <div id="usuario-caja">
             <a href="vistaPerfil.html"> <img src="images/user.png" alt=""></a>
-            <p>Baxgerz</p>
+            <p id="nombreDeUsuarioDinamico">asdasdfsadasdvcxcvxcvcv</p>
             <a href="Index.html">cerrar sesion</a>
         </div>
-    </header>
 
+    </header>
 
     <nav>
         <div id="menu-nav">
             <ul>
-                <li> <a href="#">Home</a> </li>
+                <li> <a class="active" href="#">Home</a> </li>
                 <li> <a href="buscar.html">Buscar</a> </li>
                 <li> <a href="mis-albums.html">Mis Albums</a> </li>
                 <li> <a href="mis-favoritas.html">Mis Favoritas</a> </li>
+                <li> <a href="recitales.html">Recitales</a> </li>
             </ul>
         </div>
     </nav>
-
-
-
-
 
     <main>
 
@@ -315,15 +312,7 @@
             </ul>
         </div>
 
-
-
-
         <!-- <audio src="cancion.m4a" controls loop></audio> -->
-
-
-
-
-
 
         <!-- REPRODUCTOR COMPLETO -->
         <div id="reproductor-completo">
@@ -337,11 +326,8 @@
                 <p>Michael Jackson</p>
             </div>
 
-
             <!-- SECTOR DE REPRODUCCION -->
             <div id="sector-de-reproduccion">
-
-
 
                 <!-- VOLUMEN -->
                 <div id="sector-volumen">
@@ -350,9 +336,6 @@
                         <div id="progreso-volumen"></div>
                     </div>
                 </div>
-
-
-
 
                 <!-- REPRODUCTOR MUSICA -->
                 <div id="sector-reproduciendo">
@@ -368,10 +351,6 @@
                     </div>
                 </div>
 
-
-
-
-
                 <!-- CARACTERISTICAS EXTRAS -->
                 <div id="sector-caracteristicas-extras">
                     <button class="btn" id="playlist">Lista</button>
@@ -379,32 +358,12 @@
                     <button class="btn" id="expand">Expandir</button>
                 </div>
 
-
-
             </div>
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
 
-
-
-
-
+ <script src="/javascript/validacionesYcombos.js"></script> 
 </body>
 
 </html>

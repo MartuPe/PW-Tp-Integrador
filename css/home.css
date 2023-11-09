@@ -1,10 +1,14 @@
 
-#menu-nav li:first-child a {
+#nombreDeUsuarioDinamico{
+    background-color: #c51111;
+}
+
+/* #menu-nav li:first-child a {
     background-color: transparent;
     text-decoration: none;
     padding-left: 20px;
     color: #CCEE52;
-}
+} */
 
 #menu-nav li a:hover{
     color: #CCEE52;

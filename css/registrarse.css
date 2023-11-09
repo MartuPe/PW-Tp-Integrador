@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+
+.mensajeRegistrarse{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+}
+
 body {
     background-image: url("../images/background-registro.png");
 }
@@ -51,6 +59,7 @@ label{
     letter-spacing: 3px;
     display: block;
     margin-bottom: 7px;
+    margin-top: .5em;
 }
 
 .formulario__section input{
@@ -59,7 +68,8 @@ label{
     background-color: #0A0A0A;
     color: #ababab;
     border: none;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
+
 }
 
 .formulario div:last-child{
