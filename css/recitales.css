@@ -1,0 +1,135 @@
+.fondo-popup{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+#popup{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px 5px #0e0e0e;
+    background-color: transparent;
+    text-align: center;
+    background-color: #0a0a0a;
+    padding: 2em;
+}
+/* 
+#popup img{
+    width: 50%;
+    
+} */
+
+#imagen-popup{
+    text-align: center;
+    background-color: transparent;
+}
+
+#popup div:last-child{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 25em;
+    padding-left: 2em;
+}
+
+#popup div:last-child p{
+    background-color: transparent;
+    color:#acacac;
+    height: 1em;
+}
+
+#popup div:last-child button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#popup div:last-child button:hover{
+    color: #CCEE52;
+}
+
+#popup div:last-child div:nth-child(5){
+    background-color: transparent;
+    height: 1em;
+    padding-top: 1.5em;
+    display: block;
+    width: 100%;
+}
+
+
+#popup div:last-child span{
+    background-color: transparent;
+    color: #7463F2;
+    font-weight: 600;
+}
+
+#popup div:last-child h3:nth-child(3){
+    background-color: transparent;
+    background-image: url("../images/icons/icono-fecha-popup.png");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    padding-top: 0.3em;
+    background-position: top left;
+    color: #ED70C3;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 2em;
+}
+
+#popup div:last-child h3:nth-child(4){
+    background-color: transparent;
+    background-image: url("../images/icons/icono-ubicacion-popup.png");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    padding-top: 0.3em;
+    background-position: top left;
+    color: #7463F2;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 2em;
+}
+
+/* #popup div:last-child div:nth-child(3){
+    background-color: transparent;
+    width: 2em;
+    height: 2em;
+    background-image: url("../images/icons/icono-fecha-popup.png");
+    background-repeat: no-repeat;
+} */
+
+#popup div:last-child h2{
+    background-color: transparent;
+    margin: auto;
+    margin-top: 1em;
+    color: #CCEE52;
+}
+
+.close-popup{
+    display: none;
+}
+
+.carrousel{
+    width: 99em;
+    height: 20em;
+    padding-left: 1em;
+    z-index: -1;
+}
+
+#calendario{
+    margin-left: 3.5em;
+    width: 90%;
+    height: 10em;
+}
+
+#calendario h2{
+    color: #CCEE52;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#calendario .fc-view-container{
+    padding-bottom: 10em;
+}

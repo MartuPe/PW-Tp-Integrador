@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/vistaPerfil-estilos.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gxe7kxq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65c8bcbd9c.js" crossorigin="anonymous"></script>
+    <title>Vista general de mi cuenta - TuneWaves</title>
+</head>
+
+<body>
+    <header>
+        <h1>TuneWaves</h1>
+        <div id="usuario-caja">
+            <a href="vistaPerfil.html"> <img src="https://github.com/CabaNicolas/PW-Tp-Integrador/blob/main/images/user.png?raw=true" alt=""></a>
+            <p id="nombreDeUsuarioDinamico">Baxgerz</p>
+            <a href="index.html">cerrar sesion</a>
+        </div>
+    </header>
+    <nav>
+        <div id="menu-nav">
+            <ul>
+                <li> <a href="home.html"> <i class="fa-solid fa-house"> </i> Home </a> </li>
+                <li> <a href="buscar.html"> <i class="fa-solid fa-magnifying-glass"> </i> Buscar </a> </li>
+                <li> <a href="mis-albums.html"> <i class="fa-solid fa-compact-disc"> </i> Mis Albums </a> </li>
+                <li> <a href="mis-favoritas.html"> <i class="fa-solid fa-star"> </i> Mis Favoritas </a> </li>
+                <li> <a href="recitales.html">Recitales</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h2> MI PERFIL </h2>
+        <div class="boton-premium">
+            <a href="premium.html" id="premium"> Premium </a>
+        </div>
+        <!-- CAMPOS DEL FORMULARIO -->
+        <div id="caja-formulario">
+            <div id="request-usuario" class="campo">
+                <label for="nombre"> Usuario </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div id="request-contrasena" class="campo">
+                <label for="contrasena"> Contraseña </label>
+                <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña">
+            </div>
+            <div id="request-repetir-contrasena" class="campo">
+                <label for="repetir-contrasena"> Repetir contraseña </label>
+                <input type="password" name="repetir-contrasena" id="repetir-contrasena" placeholder="Repita su contraseña">
+            </div>
+            <div id="request-fecha" class="campo">
+                <label for="fecha-nacimiento"> Fecha de nacimiento </label>
+                <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+            </div>
+            <div id="request-email" class="campo">
+                <label for="e-mail"> E-mail </label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="ejemplo@ejemplo.com.ar">
+            </div>
+        </div>
+        <div class="botones-finales">
+            <button id="guardar-cambios"> GUARDAR CAMBIOS </button>
+            <button id="eliminar-usuario"> ELIMINAR USUARIO </button>
+        </div>
+        <!-- REPRODUCTOR COMPLETO -->
+        <div id="reproductor-completo">
+            <!-- CANCION SONANDO -->
+            <div id="cancion-sonando">
+                <img id="imagenCancionSonando" src="images/invincible-michael-jackson-album.png" alt="Portada del álbum llamado Invincible de Michael Jackson">
+                <h3 id="cancionSonando">You Rock My World</h3>
+                <p id="albumSonando">Invincible</p>
+                <p id="artistaSonando">Michael Jackson</p>
+            </div>
+            <!-- SECTOR DE REPRODUCCION -->
+            <div id="sector-de-reproduccion">
+                <!-- VOLUMEN -->
+                <div id="sector-volumen">
+                    <button class="btn" id="boton-volumen"> <i class="fa-solid fa-volume-low"></i> Volumen </button>
+                    <div id="barra-volumen">
+                        <div id="progreso-volumen"></div>
+                    </div>
+                </div>
+                <!-- REPRODUCTOR MUSICA -->
+                <div id="sector-reproduciendo">
+                    <div id="botones-reproduciendo">
+                        <button class="btn" id="random"> <i class="fa-solid fa-shuffle"> </i> Aleatorio </button>
+                        <button class="btn" id="reverse"> <i class="fa-solid fa-backward"> </i> Reversa</button>
+                        <button class="btn" id="play"> <i class="fa-solid fa-play"> </i> Play </button>
+                        <button class="btn" id="forward"> <i class="fa-solid fa-forward"> </i> Avanzar </button>
+                        <button class="btn" id="repeat"> <i class="fa-solid fa-rotate"></i> Repetición </button>
+                    </div>
+                    <div id="barra-reproduciendo">
+                        <div id="progreso-reproduciendo"></div>
+                    </div>
+                </div>
+                <!-- CARACTERISTICAS EXTRAS -->
+                <div id="sector-caracteristicas-extras">
+                    <button class="btn" id="playlist"> <i class="fa-solid fa-list"> </i> Lista </button>
+                    <button class="btn" id="devices"> <i class="fa-solid fa-mobile-screen-button"> </i> Dispositivos </button>
+                    <button class="btn" id="expand"> <i class="fa-solid fa-up-right-and-down-left-from-center"> </i> Expandir </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/nombreUsuario.js" type="text/javascript"></script>
+    <script src="javascript/sonando.js"> </script>
+</body>
+
+</html>

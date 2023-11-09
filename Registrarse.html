@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Logo.icon">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/registrarse.css">
+    <link rel="icon" href="images/icons/favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/gxe7kxq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div>
+            <img src="images/logo-registro.png" alt="Logo TuneWaves">
+        </div>
+        <div>
+            <h1>Registrarse</h1>
+            <form class="formulario" action="Index.html">
+                <div class="formulario__section">
+                    <label for="Usuario">Nombre de usuario </label>
+                    <input type="text" id="Usuario">
+                    <div class="mensajeRegistrarse"></div>
+                </div>
+                <div class="formulario__section">
+                    <label for="Contraseña">Contraseña </label>
+                    <input type="password" id="Contraseña">
+                    <div class="mensajeRegistrarse"></div>
+                </div>
+                <div class="formulario__section">
+                    <label for="repeat-pass">Repetir contraseña </label>
+                    <input type="password" id="repeat-pass">
+                    <div class="mensajeRegistrarse"></div>
+                </div>
+                <div class="formulario__section">
+                    <label for="Email">Email </label>
+                    <input type="text" id="Email">
+                    <div class="mensajeRegistrarse"></div>
+                </div>
+                <div class="formulario__section">
+                    <label for="Nacimiento">Fecha de nacimiento </label>
+                    <input type="text" id="Nacimiento">
+                    <div class="mensajeRegistrarse"></div>
+                </div>
+                <div>
+                    <input type="submit" value="Registrarse">
+                </div>
+            </form>
+            <div id="opciones">
+                <a href="premium.html">Opcion premium</a>
+                <a href="Index.html">Iniciar Sesión</a>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/validacionRegistrarse.js"></script>
+    <script src="javascript/sonando.js"> </script>
+</body>
+
+</html>

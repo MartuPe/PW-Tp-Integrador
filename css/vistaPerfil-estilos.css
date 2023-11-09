@@ -1,0 +1,362 @@
+* {
+    font-family: "effra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e3e3e3;
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    margin-left: 1rem;
+    color: #CCEE52;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 5px #141414;
+}
+
+/* NAV */
+
+nav {
+    font-family: "effra", sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#menu-nav {
+    background-color: #0a0a0a;
+    color: #fff;
+    width: 14%;
+    position: fixed;
+    height: 100vh;
+    z-index: 1100;
+}
+
+#menu-nav li {
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #0a0a0a;
+}
+
+#menu-nav li a {
+    background-color: transparent;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+#menu-nav ul {
+    background-color: #0a0a0a;
+    padding: 50px;
+}
+
+
+/* REPRODUCTOR COMPLETO */
+#reproductor-completo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: end;
+    height: fit-content;
+    background-color: transparent;
+    z-index: 1100;
+}
+
+/* SECTOR DE REPRODUCCION */
+
+#sector-de-reproduccion {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    align-items: center;
+    background-color: #0A0A0A;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    box-shadow: 15px 0px 10px 5px #0e0e0e;
+    padding-left: 15%;
+}
+
+.btn {
+    border: none;
+    color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0A0A0A;
+}
+
+/* REPRODUCTOR MUSICA */
+
+#sector-reproduciendo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0A0A;
+}
+
+#botones-reproduciendo {
+
+    background-color: #0A0A0A;
+}
+
+#barra-reproduciendo {
+    background-color: #ccc;
+    height: 0.3em;
+    width: 50%;
+    margin-top: 1em;
+    position: relative;
+    border-radius: 3px;
+}
+
+#progreso-reproduciendo {
+    background-color: #CCEE52;
+    height: 100%;
+    width: 50%;
+    border-radius: 3px;
+}
+
+/* VOLUMEN */
+
+#sector-volumen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #0A0A0A;
+    margin-left: 15px;
+}
+
+#barra-volumen {
+    background-color: #ccc;
+    height: 0.3em;
+    width: 60%;
+    position: relative;
+    border-radius: 3px;
+}
+
+#progreso-volumen {
+    background-color: #7463F2;
+    height: 100%;
+    width: 30%;
+    border-radius: 3px;
+}
+
+#boton-volumen {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CARACTERISTICAS EXTRA */
+#sector-caracteristicas-extras {
+    background-color: #0A0A0A;
+}
+
+/* CANCION SONANDO */
+#cancion-sonando {
+    background-color: #1E1E1E;
+    padding: 2em;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 1px 10px 5px #0A0A0A;
+    width: 11%;
+    position: fixed;
+    bottom: 0;
+}
+
+#cancion-sonando h3{
+    color:#CCEE52;
+}
+
+#cancion-sonando img {
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent !important;
+    background: linear-gradient(to bottom, #0A0A0A, transparent) !important;
+    padding-top: 1em;
+}
+
+main {
+    text-transform: uppercase;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    background-image: url('https://github.com/CabaNicolas/PW-Tp-Integrador/blob/main/images/icons/logo.png?raw=true');
+    background-repeat: no-repeat;
+    float: left;
+    background-color: transparent;
+    color: transparent;
+    width: 7em;
+    height: 2em;
+    margin-left: 9em;
+}
+
+.boton-premium {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8em;
+    margin-bottom: 20px;
+}
+
+#premium {
+    background-color: #ed70c3;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+    padding: 4px;
+    margin-right: 15px;
+}
+
+#caja-formulario {
+    margin-left: 8em;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.campo label {
+    margin-right: 15px;
+    color: #7463F2;
+}
+
+#request-contrasena {
+    margin-bottom: 1em;
+}
+
+#request-usuario, #request-repetir-contrasena, #request-fecha, #request-email {
+    margin-bottom: 3em;
+}
+
+input#usuario, input#contrasena, input#repetir-contrasena, input#fecha, input#e-mail {
+    border-radius: 3px;
+    min-width: 325px;
+    min-height: 20px;
+    border-color: #0A0A0A;
+    box-shadow: none;
+    outline: none;
+}
+
+.botones-finales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones-finales button {
+    margin-right: 5em;
+    border-radius: 2px;
+    color: #0a0a0a;
+    padding: 2px;
+    min-width: 200px;
+    min-height: 40px;
+    outline: none;
+}
+
+.botones-finales #guardar-cambios {
+    background-color:#CCEE52;
+}
+
+.botones-finales button#eliminar-usuario, .botones-finales button#guardar-cambios {
+    border-radius: 10px;
+}
+
+.botones-finales #eliminar-usuario {
+    background-color: #6b0f0f;
+}
+
+#usuario-caja {
+    float: right;
+    margin-right: 7em;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+#usuario-caja img {
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#usuario-caja a,
+#usuario-caja p {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+#usuario-caja a {
+    height: 30px;
+}
+
+#usuario-caja a:last-child{
+    color: white;
+    padding-top: 25px;
+    font-size: 0.5rem;
+    text-decoration: none;
+}
+
+#usuario-caja p {
+    text-transform: lowercase;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 0.8rem;
+    color: #0A0A0A;
+    background-color: #7463F2;
+    border-radius: 10px;
+    padding: 5px 15px 5px 30px;
+    margin-left: -25px;
+}
+
+#imagen {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* VERDE: CCEE52 */
+/* VIOLETA: 7463F2 */
+/* ROSA: ED70C3 */

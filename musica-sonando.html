@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reproduciendo-estilos.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gxe7kxq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65c8bcbd9c.js" crossorigin="anonymous"></script>
+    <title> Música sonando - TuneWaves </title>
+</head>
+
+<body>
+    <header>
+        <h1>TuneWaves</h1>
+        <div id="usuario-caja">
+            <a href="usuario.html"> <img src="https://github.com/CabaNicolas/PW-Tp-Integrador/blob/main/images/user.png?raw=true" alt=""></a>
+            <p id="nombreDeUsuarioDinamico">Baxgerz</p>
+            <a href="index.html" id="cerrarSesion">cerrar sesion</a>
+        </div>
+    </header>
+    <nav>
+        <div id="menu-nav">
+            <ul>
+                <li> <a href="home.html"> <i class="fa-solid fa-house"> </i> Home </a> </li>
+                <li> <a href="buscar.html"> <i class="fa-solid fa-magnifying-glass"> </i> Buscar </a> </li>
+                <li> <a href="mis-albums.html"> <i class="fa-solid fa-compact-disc"> </i> Mis Albums </a> </li>
+                <li> <a href="mis-favoritas.html"> <i class="fa-solid fa-star"> </i> Mis Favoritas </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h2> MÚSICA SONANDO </h2>
+        <div class="playlist">
+            <div class="card">
+                <div class="image-container"> <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Imagine-Dragons-Believer-art.jpg" alt="Believer - IG "></div>
+                <div class="info-cancion">
+                    <p class="titulo"> Believer </p>
+                    <p class="artista"> Imagine Dragons </p>
+                </div>
+                <div class="album"> EVOLVE </div>
+                <div class="fecha"> 31ene 2017 </div>
+                <div class="duracion"> 3:00 </div>
+                <div class="estrella"> <i class="fa-solid fa-star"> </i> </div>
+            </div>
+            <div class="card">
+                <div class="image-container"> <img src="https://i.scdn.co/image/ab67616d0000b273de03bfc2991fd5bcfde65ba3" alt="Stressed Out - TOP "></div>
+                <div class="info-cancion">
+                    <p class="titulo"> Stressed Out </p>
+                    <p class="artista"> Twenty One Pilots </p>
+                </div>
+                <div class="album"> BLURRYFACE </div>
+                <div class="fecha"> 27abril 2015 </div>
+                <div class="duracion"> 3:22 </div>
+                <div class="estrella"> <i class="fa-solid fa-star"> </i> </div>
+            </div>
+            <div class="card">
+                <div class="image-container"> <img src="https://images.vice.com/noisey/content-images/article/nuevo-sencillo-adventure-of-a-lifetime-coldplay/coldplay.jpg?crop=0.5141509433962265xw:1xh;center,center" alt="AOAL - Coldplay"></div>
+                <div class="info-cancion">
+                    <p class="titulo"> Adventure Of A Lifetime </p>
+                    <p class="artista"> Coldplay </p>
+                </div>
+                <div class="album"> A HEAD FULL OF DREAMS </div>
+                <div class="fecha"> 6nov 2015 </div>
+                <div class="duracion"> 4:24 </div>
+                <div class="estrella"> <i class="fa-solid fa-star"> </i> </div>
+            </div>
+            <div class="card">
+                <div class="image-container"> <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Zayn_Malik_-_Pillowtalk_%28Official_Single_Cover%29.png" alt="Pillowtalk - Zayn"></div>
+                <div class="info-cancion">
+                    <p class="titulo"> Pillowtalk </p>
+                    <p class="artista"> Zayn </p>
+                </div>
+                <div class="album"> MIND OF MINE </div>
+                <div class="fecha"> 29ene 2016 </div>
+                <div class="duracion"> 3:27 </div>
+                <div class="estrella"> <i class="fa-solid fa-star"> </i> </div>
+            </div>
+            <div class="card">
+                <div class="image-container"> <img src="https://indiehoy.com/wp-content/uploads/2016/10/the-weeknd-starboy.jpg" alt="Starboy - The Weeknd"></div>
+                <div class="info-cancion">
+                    <p class="titulo"> Starboy </p>
+                    <p class="artista"> Zayn </p>
+                </div>
+                <div class="album"> STARBOY </div>
+                <div class="fecha"> 21sept 2016 </div>
+                <div class="duracion"> 3:39 </div>
+                <div class="estrella"> <i class="fa-solid fa-star"> </i> </div>
+            </div>
+        </div>
+        <!-- REPRODUCTOR COMPLETO -->
+        <div id="reproductor-completo">
+            <!-- CANCION SONANDO -->
+            <div id="cancion-sonando">
+                <img id="imagenCancionSonando" src="images/invincible-michael-jackson-album.png" alt="Portada del álbum llamado Invincible de Michael Jackson">
+                <h3 id="cancionSonando">You Rock My World</h3>
+                <p id="albumSonando">Invincible</p>
+                <p id="artistaSonando">Michael Jackson</p>
+            </div>
+            <!-- SECTOR DE REPRODUCCION -->
+            <div id="sector-de-reproduccion">
+                <!-- VOLUMEN -->
+                <div id="sector-volumen">
+                    <button class="btn" id="boton-volumen"> <i class="fa-solid fa-volume-low"></i> Volumen </button>
+                    <div id="barra-volumen">
+                        <div id="progreso-volumen"></div>
+                    </div>
+                </div>
+                <!-- REPRODUCTOR MUSICA -->
+                <div id="sector-reproduciendo">
+                    <div id="botones-reproduciendo">
+                        <button class="btn" id="random"> <i class="fa-solid fa-shuffle"> </i> Aleatorio </button>
+                        <button class="btn" id="reverse"> <i class="fa-solid fa-backward"> </i> Reversa</button>
+                        <button class="btn" id="play"> <i class="fa-solid fa-play"> </i> Play </button>
+                        <button class="btn" id="forward"> <i class="fa-solid fa-forward"> </i> Avanzar </button>
+                        <button class="btn" id="repeat"> <i class="fa-solid fa-rotate"></i> Repetición </button>
+                    </div>
+                    <div id="barra-reproduciendo">
+                        <div id="progreso-reproduciendo"></div>
+                    </div>
+                </div>
+                <!-- CARACTERISTICAS EXTRAS -->
+                <div id="sector-caracteristicas-extras">
+                    <button class="btn" id="playlist"> <i class="fa-solid fa-list"> </i> Lista </button>
+                    <button class="btn" id="devices"> <i class="fa-solid fa-mobile-screen-button"> </i> Dispositivos </button>
+                    <button class="btn" id="expand"> <i class="fa-solid fa-up-right-and-down-left-from-center"> </i> Expandir </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/reproduciendo-javascript.js"> </script>
+    <script src="javascript/nombreUsuario.js" type="text/javascript"></script>
+    <script src="javascript/sonando.js"> </script>
+</body>
+
+</html>

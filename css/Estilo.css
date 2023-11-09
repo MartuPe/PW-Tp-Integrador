@@ -1,0 +1,67 @@
+* {
+    font-family: serif;
+    margin: 0;
+
+}
+
+#mensajeError{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.651);
+    padding: 10px;
+    margin: 2px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Aprovecha el alto completo de la ventana */
+    background-color: #222138;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido del .container */
+    width: 100%; /* Ocupa el ancho completo disponible */
+    max-width: 500px; /* Establece un ancho máximo para evitar que se vuelva demasiado ancho en pantallas grandes */
+    margin: 0 20px; /* Agrega un margen opcional para espaciarlo de los bordes de la ventana */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    background-color: #545193;
+    box-shadow: 10px 10px 10px #7b77c9;
+}
+
+
+.form__section {
+    margin: 10px;
+
+
+}
+
+.form__input {
+    width: 300px;
+    height: 45px;
+}
+
+.form__submit {
+    width: 310px;
+    /*Define el ancho unicamente del boton para enviar*/
+    height: 30px;
+
+}
+
+.form__section label {
+    display: block;
+    /*Para que los labels se ubiquen por encima de los inputs*/
+
+}
+
+.link a{
+    text-decoration: none;
+    color: #222138;
+}
