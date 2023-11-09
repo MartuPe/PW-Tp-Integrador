@@ -8,111 +8,138 @@
     <link rel="stylesheet" href="css/EstiloBusca.css">
     <script src="https://kit.fontawesome.com/c50c1275d0.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/Logo.icon">
+
+    <link rel="stylesheet" href="css/vista pagar estilo.css">
+    <link rel="stylesheet" href="css/estilos-estaticos.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/icons/favicon.ico">
+
+    <link rel="stylesheet" href="https://use.typekit.net/gxe7kxq.css">
+    <script src="https://kit.fontawesome.com/c50c1275d0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+
+    <title>TuneWaves</title>
 </head>
 
-<header>
-    <nav class="barra-lateral">
-        <ul class="barra-lateral__ul">
-
-            <li class="barra-lateral__li">
-                <i class=" fas fa-home"></i>
-                <a href="home.html">Home</a>
-            </li>
-
-            <li class="barra-lateral__li">
-                <i class="fas fa-magnifying-glass"></i>
-                <a href="buscar.html">Buscar</a>
-            </li>
-
-            <li class="barra-lateral__li">
-                <i class="fas fa-record-vinyl"></i>
-                <a href="mis-albums.html">Mis albumes</a>
-            </li>
-
-            <li class="barra-lateral__li">
-                <i class="fas fa-star"></i>
-                <a href="mis-favoritas.html">Mis favoritas</a>
-            </li>
-
-        </ul>
-    </nav>
-    <nav class="barra-buscar">
-        <div class="buscador">
-            <h4>EXPLORAR</h4>
-            <i class="fas fa-magnifying-glass"></i>
-            <input class="buscador__input" type="search" placeholder="Buscar canciones, albumes, playlists...">
-        </div>
-
-        <div class="usuario">
-            <div class="usuario__objetos">
-                <img src="images/ross.jpg" alt="Ross lynch">
-                <h3>MartuPe</h3>
-                <a href="Index.html" class="usuario__a">Cerrar sesión</a>
-            </div>
-       
-
-
-
-        </div>
-    </nav>
-</header>
 
 <body>
-    <article class="generosYepocas">
-        <section class="generos">
-            <div class="titulos">
-                <h2>GÉNEROS</h2>
-                <h6>VER TODO</h6>
+
+        <header>
+            <h1>TuneWaves</h1>
+            <div id="usuario-caja">
+                <a href="usuario.html"> <img src="images/user.png" alt=""></a>
+                <p>Baxgerz</p>
+                <a href="Index.html">cerrar sesion</a>
             </div>
-            <div class="imagenes">
-                <img src="images/imagenPortadamusica.jpg" alt="">
-                <img src="images/imagenPortadamusica2.jpg" alt="">
-                <img src="images/imagenPortadamusica3.jpg" alt="">
-                <img src="images/imagenPortadamusica4.jpg" alt="">
-                <img src="images/imagenPortadamusica11.jpg" alt="">
-                <img src="images/imagenPortadamusica6.jpg" alt="">
+        </header>
+
+
+        <nav>
+            <div id="menu-nav">
+                <ul>
+                    <li> <a href="home.html">Home</a> </li>
+                    <li> <a href="buscar.html">Buscar</a> </li>
+                    <li> <a href="mis-albums.html">Mis Albums</a> </li>
+                    <li> <a href="mis-favoritas.html">Mis Favoritas</a> </li>
+                    <li> <a href="recitales.html">Recitales</a> </li>
+                </ul>
             </div>
-        </section>
-        <section class="generos">
-            <div class="titulos">
-                <h2>ÉPOCAS</h2>
-                <h6>VER TODO</h6>
+        </nav>
+
+
+        <article class="generosYepocas">
+            <section class="generos">
+                <div class="titulos">
+                    <h2>GÉNEROS</h2>
+                    <h6>VER TODO</h6>
+                </div>
+                <div class="imagenes">
+                    <img src="images/imagenPortadamusica.jpg" alt="">
+                    <img src="images/imagenPortadamusica2.jpg" alt="">
+                    <img src="images/imagenPortadamusica3.jpg" alt="">
+                    <img src="images/imagenPortadamusica4.jpg" alt="">
+                    <img src="images/imagenPortadamusica11.jpg" alt="">
+                    <img src="images/imagenPortadamusica6.jpg" alt="">
+                </div>
+            </section>
+            <section class="generos"></section>
+                <div class="titulos">
+                    <h2>ÉPOCAS</h2>
+                    <h6>VER TODO</h6>
+                </div>
+                <div class="imagenes">
+                    <img src="images/imagenPortadamusica7.jpg" alt="">
+                    <img src="images/imagenPortadamusica8.jpg" alt="">
+                    <img src="images/imagenPortadamusica9.jpg" alt="">
+                    <img src="images/imagenPortadamusica10.jpg" alt="">
+                    <img src="images/imagenPortadamusica11.jpg" alt="">
+                    <img src="images/imagenPortadamusica12.jpg" alt="">
+                </div>
+            </section>
+        </article>
+
+        <!-- REPRODUCTOR COMPLETO -->
+        <div id="reproductor-completo">
+
+            <!-- CANCION SONANDO -->
+            <div id="cancion-sonando">
+                <img src="images/invincible-michael-jackson-album.png"
+                    alt="Portada del álbum llamado Invincible de Michael Jackson">
+                <h3>You Rock My World</h3>
+                <p>Invincible</p>
+                <p>Michael Jackson</p>
             </div>
-            <div class="imagenes">
-                <img src="images/imagenPortadamusica7.jpg" alt="">
-                <img src="images/imagenPortadamusica8.jpg" alt="">
-                <img src="images/imagenPortadamusica9.jpg" alt="">
-                <img src="images/imagenPortadamusica10.jpg" alt="">
-                <img src="images/imagenPortadamusica11.jpg" alt="">
-                <img src="images/imagenPortadamusica12.jpg" alt="">
+
+
+            <!-- SECTOR DE REPRODUCCION -->
+            <div id="sector-de-reproduccion">
+
+
+
+                <!-- VOLUMEN -->
+                <div id="sector-volumen">
+                    <button class="btn" id="boton-volumen">Volumen</button>
+                    <div id="barra-volumen">
+                        <div id="progreso-volumen"></div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- REPRODUCTOR MUSICA -->
+                <div id="sector-reproduciendo">
+                    <div id="botones-reproduciendo">
+                        <button class="btn" id="random">Aleatorio</button>
+                        <button class="btn" id="reverse">Reversa</button>
+                        <button class="btn" id="play">Play</button>
+                        <button class="btn" id="forward">Avanzar</button>
+                        <button class="btn" id="repeat">Repetición</button>
+                    </div>
+                    <div id="barra-reproduciendo">
+                        <div id="progreso-reproduciendo"></div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- CARACTERISTICAS EXTRAS -->
+                <div id="sector-caracteristicas-extras">
+                    <button class="btn" id="playlist">Lista</button>
+                    <button class="btn" id="devices">Dispositivos</button>
+                    <button class="btn" id="expand">Expandir</button>
+                </div>
+
+
+
             </div>
-        </section>
-    </article>
+
+        </div>
 
 </body>
-
-<footer class="reproduccion">
-
-    <div class="reproduccion__iconos">
-        <i class="fas fa-volume-up"></i> <!-- Ícono de volumen -->
-        <i class="fas fa-stop"></i> <!-- Ícono de parar -->
-        <i class="fas fa-step-backward"></i> <!-- Ícono de retroceder un paso -->
-        <i class="fas fa-play"></i> <!-- Ícono de reproducción (reproducir) -->
-        <i class="fas fa-step-forward"></i> <!-- Ícono de avanzar un paso -->
-        <i class="fas fa-pause"></i> <!-- Ícono de pausa -->
-        <i class="fas fa-clock"></i> <!-- Ícono de reloj (para mostrar el tiempo de reproducción) -->
-    </div>
-    <div class="reproduccion__audio">
-        <input type="range" class="reproduccion__audio__audio">
-    </div>
-
-    <div class="Imagen-reproduccion">
-        <img src="images/imagenPortadamusica10.jpg" alt="reproduccion momentanea">
-        <h2>LOUDER</h2>
-        <h5>PASS ME BY</h5>
-        <h6>R5, ROSS LYNCH</h6>
-        <i class="far fa-star"></i>
-    </div>
-</footer>
 
 </html>

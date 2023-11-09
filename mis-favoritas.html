@@ -33,24 +33,40 @@
                 <li> <a href="buscar.html">Buscar</a> </li>
                 <li> <a href="mis-albums.html">Mis Albums</a> </li>
                 <li> <a class="active" href="mis-favoritas.html">Mis Favoritas</a> </li>
+				<li> <a href="recitales.html">Recitales</a> </li>
             </ul>
 		</nav>
 	
 	<main>
 		<section class="seccionMain">
+
 			<div>
 				<h2>Mis Canciones Favoritas</h2>
 			</div>
+
+			<section id="filtros">
+				<select id="inicial">
+					<option value="1">Cancion</option>
+					<option value="2">Album</option>
+					<option value="3">Reproducciones</option>
+					<option value="4">Duracion</option>
+				 </select> 
+	
+				 <select id="secundario">
+				</select>
+				<button id="filtrar">Filtrar</button>
+			</section>
+
 			<div class="musicConteiner">
 				<div class="cardMusic">
 					<div class="imgConteiner"><img src="images/a-hard-days-night-thebealtes.jpg" alt="FotoCancion"></div>
 					<div class="datosConteiner">
-						<span class="cancionNombre">Tell Me Why</span>
+						<span class="cancionNombre">Tell My Why</span>
 						<span>The Beatles</span>
 					</div>
 					<span class="cancionAlbum">A Hard Day´s Night</span>
-					<span class="cancionFecha">18 sept 2023</span>
-					<span class="cancionDuracion">2:08</span>
+					<span class="cancionFecha">10000</span>
+					<span class="cancionDuracion">2:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -60,8 +76,8 @@
 						<span>The Beatles</span>
 					</div>
 					<span class="cancionAlbum">Abbey Road</span>
-					<span class="cancionFecha">18 sept 2023</span>
-					<span class="cancionDuracion">3:02</span>
+					<span class="cancionFecha">40000</span>
+					<span class="cancionDuracion">3:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -71,8 +87,8 @@
 						<span>Michael Jackson</span>
 					</div>
 					<span class="cancionAlbum">Bad 25th Anniversary</span>
-					<span class="cancionFecha">27 sept 2023</span>
-					<span class="cancionDuracion">4:07</span>
+					<span class="cancionFecha">90000</span>
+					<span class="cancionDuracion">4:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -82,8 +98,8 @@
 						<span>Queen</span>
 					</div>
 					<span class="cancionAlbum">Sheer Heart Attack</span>
-					<span class="cancionFecha">27 sept 2023</span>
-					<span class="cancionDuracion">2:59</span>
+					<span class="cancionFecha">50000</span>
+					<span class="cancionDuracion">2:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -93,8 +109,8 @@
 						<span>Madonna</span>
 					</div>
 					<span class="cancionAlbum">Hard Candy</span>
-					<span class="cancionFecha">27 sept 2023</span>
-					<span class="cancionDuracion">6:04</span>
+					<span class="cancionFecha">80000</span>
+					<span class="cancionDuracion">6:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -104,8 +120,8 @@
 						<span>Queen - David Bowie</span>
 					</div>
 					<span class="cancionAlbum">Hot Space</span>
-					<span class="cancionFecha">27 sept 2023</span>
-					<span class="cancionDuracion">4:08</span>
+					<span class="cancionFecha">70000</span>
+					<span class="cancionDuracion">4:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 				<div class="cardMusic">
@@ -115,8 +131,8 @@
 						<span>David Bowie</span>
 					</div>
 					<span class="cancionAlbum">Aladdin Sane</span>
-					<span class="cancionFecha">27 sept 2023</span>
-					<span class="cancionDuracion">3:01</span>
+					<span class="cancionFecha">40000</span>
+					<span class="cancionDuracion">3:00</span>
 					<span class="cancionEstrella"><img src="images/star.png" alt="EstrellaFav"></span>
 				</div>
 			</div>
@@ -181,5 +197,6 @@
 	</main>
 	<footer>
 	</footer>
+	<script src="/javascript/combosFavoritas.js"></script>
 </body>
 </html>
